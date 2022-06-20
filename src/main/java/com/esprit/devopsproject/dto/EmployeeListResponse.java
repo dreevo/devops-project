@@ -1,6 +1,5 @@
 package com.esprit.devopsproject.dto;
 
-import com.esprit.devopsproject.dao.models.Employee;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

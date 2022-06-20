@@ -21,7 +21,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
 @SpringBootTest
-public class EmployeeServiceTest {
+class EmployeeServiceTest {
 
     private static ArrayList<Employee> mockEmployees = new ArrayList<>();
 

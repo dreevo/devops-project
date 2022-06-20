@@ -1,9 +1,7 @@
 package com.esprit.devopsproject.controller;
 
-import com.esprit.devopsproject.dao.repositories.EmployeeRepository;
 import com.esprit.devopsproject.dto.EmployeeListResponse;
 import com.esprit.devopsproject.services.EmployeeService;
-import com.esprit.devopsproject.services.EmployeeServiceImpl;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
