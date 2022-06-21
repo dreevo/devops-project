@@ -2,7 +2,6 @@
 package com.esprit.devopsproject.dao.repositories;
 
 import com.esprit.devopsproject.dao.models.Employee;
-import com.esprit.devopsproject.dao.models.HumanRessources;
 import com.esprit.devopsproject.dto.EmployeeListResponse;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
