@@ -1,5 +1,6 @@
 package com.esprit.devopsproject.services;
 
+import com.esprit.devopsproject.dao.models.Department;
 import com.esprit.devopsproject.dao.repositories.DepartmentRepository;
 import com.esprit.devopsproject.dto.DepartmentListResponse;
 import lombok.extern.slf4j.Slf4j;
@@ -20,7 +21,7 @@ public class DepartmentServiceImpl implements DepartmentService{
 
     @Override
     public List<DepartmentListResponse> getAllDepartments() {
-        log.info("Getting All Employees From Database");
+        log.info("Getting All Departments From Database");
         return departmentRepository.findAll()
                 .stream().map(d -> DepartmentListResponse
                         .builder().name(d.getName())
@@ -28,8 +29,8 @@ public class DepartmentServiceImpl implements DepartmentService{
     }
 
     @Override
-    public DepartmentListResponse getDepartmentByName(String name) {
-        log.info("Getting Employee by Name From Database");
+    public Department getDepartmentByName(String name) {
+        log.info("Getting Department by Name From Database");
         return departmentRepository.findByName(name);
     }
 

@@ -11,6 +11,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 
-    @Query("SELECT e FROM t_employee e WHERE e.name= :name ")
-    public EmployeeListResponse findByName(@Param("name") String name);
+    @Query("SELECT e FROM Employee e WHERE e.username= :name ")
+    public Employee findByName(@Param("name") String name);
 }

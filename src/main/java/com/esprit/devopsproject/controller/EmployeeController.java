@@ -28,7 +28,7 @@ public class EmployeeController {
     }
 
     @GetMapping("/employees/{name}")
-    public EmployeeListResponse getEmployeeByName(@PathVariable String name) {
+    public Employee getEmployeeByName(@PathVariable String name) {
 
         return employeeRepository.findByName(name);
     }

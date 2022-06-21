@@ -10,6 +10,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface DepartmentRepository extends JpaRepository<Department, Long> {
 
-    @Query("SELECT d FROM t_department d WHERE d.name= :name ")
-    public DepartmentListResponse findByName(@Param("name") String name);
+    @Query("SELECT d FROM Department d WHERE d.name= :name ")
+    public Department findByName(@Param("name") String name);
 }

@@ -1,5 +1,6 @@
 package com.esprit.devopsproject.controller;
 
+import com.esprit.devopsproject.dao.models.Department;
 import com.esprit.devopsproject.dto.DepartmentListResponse;
 import com.esprit.devopsproject.services.DepartmentService;
 import lombok.RequiredArgsConstructor;
@@ -28,7 +29,7 @@ public class DepartmentController {
     }
 
     @GetMapping("/department/{name}")
-    public DepartmentListResponse getEmployeeByName(@PathVariable String name) {
+    public Department getEmployeeByName(@PathVariable String name) {
         return departmentService.getDepartmentByName(name);
     }
 

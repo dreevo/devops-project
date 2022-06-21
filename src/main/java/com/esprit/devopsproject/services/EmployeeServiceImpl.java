@@ -29,7 +29,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     @Override
-    public EmployeeListResponse getEmployeeByName(String name) {
+    public Employee getEmployeeByName(String name) {
         log.info("Getting Employee by Name From Database");
         return employeeRepository.findByName(name);
     }

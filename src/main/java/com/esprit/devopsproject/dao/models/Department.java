@@ -22,6 +22,10 @@ public class Department {
     private String name;
     private Long deptChefId ;
 
+    @Transient
+    private ArrayList<Employee> employees = new ArrayList<>();
+
+
 
 
 }
