@@ -20,7 +20,7 @@ public class EmployeeController {
     private final EmployeeService employeeService;
 
     @GetMapping
-    public ResponseEntity<List<EmployeeListResponse>> getEmployees(){
+    public ResponseEntity<List<EmployeeListResponse>> getEmployees() {
         log.info("Getting All Employees Endpoint");
         return ResponseEntity.ok(employeeService.getAllEmployees());
     }

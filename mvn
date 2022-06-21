@@ -1,0 +1,19 @@
+[INFO] Scanning for projects...
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+2/14 KB   3/14 KB   5/14 KB   6/14 KB   7/14 KB   9/14 KB   10/14 KB   11/14 KB   13/14 KB   14/14 KB   14/14 KB   2/20 KB   14/14 KB   3/20 KB   14/14 KB   5/20 KB   14/14 KB   6/20 KB   14/14 KB   7/20 KB   14/14 KB   9/20 KB   14/14 KB   10/20 KB   14/14 KB   11/20 KB   14/14 KB   13/20 KB   14/14 KB   14/20 KB   14/14 KB   15/20 KB   14/14 KB   16/20 KB   14/14 KB   17/20 KB   14/14 KB   19/20 KB   14/14 KB   20/20 KB   14/14 KB   20/20 KB   14/14 KB                         Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 KB at 31.1 KB/sec)
+                      Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 KB at 43.6 KB/sec)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.936 s
+[INFO] Finished at: 2022-06-20T21:25:05+01:00
+[INFO] Final Memory: 21M/84M
+[INFO] ------------------------------------------------------------------------
+[ERROR] No plugin found for prefix 'C' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\Users\wahammami\.m2\repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
