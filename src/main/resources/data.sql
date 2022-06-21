@@ -1,3 +1,4 @@
+create table t_employee (id bigint not null auto_increment, age integer, email varchar(255), username varchar(255), primary key (id));
 INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('1', 'john@email.com', 'john doe', 25);
 INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('2', 'jack@email.com', 'jack', 23);
 INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('3', 'anthony@email.com', 'anthony', 14);
