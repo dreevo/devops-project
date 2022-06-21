@@ -24,5 +24,4 @@ public class EmployeeController {
         log.info("Getting All Employees Endpoint");
         return ResponseEntity.ok(employeeService.getAllEmployees());
     }
-
 }
