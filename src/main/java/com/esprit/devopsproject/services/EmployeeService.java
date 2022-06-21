@@ -7,4 +7,5 @@ import java.util.List;
 public interface EmployeeService {
     List<EmployeeListResponse> getAllEmployees();
 
+    EmployeeListResponse getEmployeeByName(String name);
 }

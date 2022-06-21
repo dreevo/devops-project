@@ -3,5 +3,9 @@ INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES (
 INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('3', 'anthony@email.com', 'anthony', 14);
 INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('4', 'roxy@email.com', 'roxy', 22);
 INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('5', 'emily@email.com', 'emily', 33);
-INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('6', 'steven@email.com', 'steven', 44);
-INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('7', 'bob@email.com', 'bob', 18);
+INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('6', 'steven@email.com', 'steven', 44,'');
+INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('7', 'bob@email.com', 'bob', 18,'');
+
+
+INSERT INTO `devops-db`.`t_department` (`id`, `name`,`deptChefId`) VALUES ('1', 'HR',4);
+INSERT INTO `devops-db`.`t_department` (`id`, `name`,`deptChefId`) VALUES ('2', 'Cloud',2 yes );

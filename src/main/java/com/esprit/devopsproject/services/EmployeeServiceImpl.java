@@ -1,5 +1,6 @@
 package com.esprit.devopsproject.services;
 
+import com.esprit.devopsproject.dao.models.Employee;
 import com.esprit.devopsproject.dao.repositories.EmployeeRepository;
 import com.esprit.devopsproject.dto.EmployeeListResponse;
 import lombok.RequiredArgsConstructor;
@@ -25,5 +26,11 @@ public class EmployeeServiceImpl implements EmployeeService {
                         .builder().email(e.getEmail())
                         .age(e.getAge()).username(e.getUsername())
                         .id(e.getId()).build()).collect(Collectors.toList());
+    }
+
+    @Override
+    public EmployeeListResponse getEmployeeByName(String name) {
+        log.info("Getting Employee by Name From Database");
+        return employeeRepository.findByName(name);
     }
 }
