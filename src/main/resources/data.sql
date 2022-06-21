@@ -5,3 +5,8 @@ INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES (
 INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('5', 'emily@email.com', 'emily', 33);
 INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('6', 'steven@email.com', 'steven', 44);
 INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('7', 'bob@email.com', 'bob', 18);
+INSERT INTO `devops-db`.`t_stores` (`store_id`, `store_location`, `store_name`, `number_of_stuff`) VALUES ('3', 'New Jersey', 'TOP_ROJLA_New Jersey', 9);
+INSERT INTO `devops-db`.`t_stores` (`store_id`, `store_location`, `store_name`, `number_of_stuff`) VALUES ('4', 'Washington', 'TOP_ROJLA_Washington', 8);
+INSERT INTO `devops-db`.`t_stores` (`store_id`, `store_location`, `store_name`, `number_of_stuff`) VALUES ('5', 'San Diego', 'TOP_ROJLA_San Diego', 6);
+INSERT INTO `devops-db`.`t_stores` (`store_id`, `store_location`, `store_name`, `number_of_stuff`) VALUES ('6', 'Colorado', 'TOP_ROJLA_Colorado', 4);
+INSERT INTO `devops-db`.`t_stores` (`store_id`, `store_location`, `store_name`, `number_of_stuff`) VALUES ('7', 'Los angeles', 'TOP_ROJLA_Los angeles', 3);
