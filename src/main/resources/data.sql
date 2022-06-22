@@ -6,3 +6,12 @@ INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES (
 INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('5', 'emily@email.com', 'emily', 33);
 INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('6', 'steven@email.com', 'steven', 44);
 INSERT INTO `devops-db`.`t_employee` (`id`, `email`, `username`, `age`) VALUES ('7', 'bob@email.com', 'bob', 18);
+
+INSERT INTO `devops-db`.`t_transfer` (`id`, `name`, `location`, `start_date`, `end_date`) VALUES ('1', 'Angular Conference', 'England', '2019-01-10', '2019-06-10');
+INSERT INTO `devops-db`.`t_transfer` (`id`, `name`, `location`, `start_date`, `end_date`) VALUES ('2', 'JavaScript Conference', 'Spain', '2019-01-10', '2020-06-10');
+
+INSERT INTO `devops-db`.`emp_transfers` (`employees_id`, `transfers_id`) VALUES ('1', '1');
+INSERT INTO `devops-db`.`emp_transfers` (`employees_id`, `transfers_id`) VALUES ('2', '1');
+
+INSERT INTO `devops-db`.`emp_transfers` (`employees_id`, `transfers_id`) VALUES ('1', '2');
+INSERT INTO `devops-db`.`emp_transfers` (`employees_id`, `transfers_id`) VALUES ('2', '2');
