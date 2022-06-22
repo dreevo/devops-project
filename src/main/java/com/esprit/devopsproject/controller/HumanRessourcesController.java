@@ -18,7 +18,7 @@ import java.util.List;
 public class HumanRessourcesController {
 
 
-    private HRService hrService;
+    private final HRService hrService;
 
     @GetMapping
     public ResponseEntity<List<EmployeeListResponse>> getExpelled() {
